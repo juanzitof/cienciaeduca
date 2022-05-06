@@ -1,0 +1,49 @@
+.biography {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 2rem;
+  background-color: #cfd7fe;
+}
+
+.biography .biography-image {
+  border-radius: 50%;
+}
+
+.biography .biography-text {
+  width: 70%;
+  margin-left: 5rem;
+  font-weight: 300;
+  font-size: 24px;
+}
+
+p {
+  line-height: 50px;
+}
+
+.biography-link {
+  font-size: 24px;
+  font-weight: 800;
+  color: black;
+  background-color: #62667c;
+  border: 2px solid #d9dffd;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 0.8rem;
+}
+
+@media screen and (max-width: 1200px) {
+  .biography {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .biography .biography-text {
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
+    margin: 0;
+  }
+}
