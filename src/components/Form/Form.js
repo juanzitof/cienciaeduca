@@ -19,7 +19,7 @@ const Form = () => {
     e.preventDefault();
   };
 
-  const URL = `https://api.whatsapp.com/send?phone=$+541162569171&text=¡Hola! Mi nombre es: ${form.name} y mi correo electrónico es el siguiente: ${form.email}. %0ATengo la siguiente consulta:%0A%0A${form.message}. %0A%0A¡Quedo a la espera de tu respuesta!%0A¡Muchas gracias! &source=&data=`;
+  const URL = `https://api.whatsapp.com/send?phone=$+541169732476&text=¡Hola! Mi nombre es: ${form.name} y mi correo electrónico es el siguiente: ${form.email}. %0ATengo la siguiente consulta:%0A%0A${form.message}. %0A%0A¡Quedo a la espera de tu respuesta!%0A¡Muchas gracias! &source=&data=`;
 
   return (
     <>
