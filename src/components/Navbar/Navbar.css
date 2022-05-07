@@ -66,14 +66,40 @@
 
 .container__content {
   position: absolute;
-  top: 0; 
-  right: 8rem; 
+  top: 0;
+  right: 8rem;
 }
 
 .container .title {
   color: #fff;
   font-weight: bold;
   letter-spacing: 6px;
+
+  overflow: hidden;
+  border-right: 0.15em solid black;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: 0.15em;
+  animation: typing 1.8s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 11%;
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #9dafff;
+  }
 }
 
 .container .learn-more {
@@ -94,6 +120,42 @@
   left: 49.4%;
 }
 
+@media screen and (max-width: 1400px) {
+  /* The typing effect */
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 15%;
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  /* The typing effect */
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 18%;
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  /* The typing effect */
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 22%;
+    }
+  }
+}
+
 @media screen and (max-width: 868px) {
   .navbar .social-links ul {
     flex-direction: row;
@@ -109,8 +171,30 @@
 
   .container__content {
     position: absolute;
-    top: 0; 
+    top: 0;
     right: 6rem;
+  }
+
+  /* The typing effect */
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 26%;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* The typing effect */
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 28%;
+    }
   }
 }
 
@@ -124,13 +208,13 @@
   }
   .container__content {
     position: absolute;
-    top: 0; 
+    top: 0;
     right: 5rem;
   }
 }
 
 @media screen and (max-width: 620px) {
-.nav .nav-link {
+  .nav .nav-link {
     font-size: 12px !important;
   }
 
@@ -141,7 +225,31 @@
 
   .container__content {
     position: absolute;
-    top: 0; 
+    top: 0;
     right: 3rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  /* The typing effect */
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 38%;
+    }
+  }
+}
+
+@media screen and (max-width: 400px) {
+  /* The typing effect */
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 50%;
+    }
   }
 }
