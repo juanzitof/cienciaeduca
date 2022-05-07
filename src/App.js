@@ -1,11 +1,11 @@
 import Header from "./components/Header/Header";
 import Tutorias from "./components/Tutorias/Tutorias";
-import "./App.css";
 import Biography from "./components/Biography/Biography";
 import Levels from "./components/Levels/Levels";
 import Form from "./components/Form/Form";
-// import FAQ from "./components/FAQ/FAQ";
+import FAQ from "./components/FAQ/FAQ";
 import Footer from "./components/Footer/Footer";
+import "./App.css";
 
 const App = () => {
   return (
@@ -15,7 +15,7 @@ const App = () => {
       <Biography />
       <Levels />
       <Form />
-      {/* <FAQ /> */}
+      <FAQ />
       <Footer />
     </>
   );

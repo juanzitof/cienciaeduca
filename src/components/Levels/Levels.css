@@ -1,6 +1,6 @@
 .levels-container {
   width: 100%;
-  padding: 2rem 0;
+  padding: 2rem 2rem;
 }
 
 .levels-cards {
@@ -39,4 +39,22 @@
   align-items: center;
   justify-content: flex-start;
   margin-bottom: 6px;
+}
+
+@media screen and (max-width: 620px) {
+
+
+.levels-cards {
+  width: 90%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+  padding: 0 1rem;
+
+  /* center */
+  justify-items: center;
+
+}
+  
 }

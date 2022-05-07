@@ -4,7 +4,7 @@ import "./Tutorias.css";
 const Tutorias = () => {
   return (
     <>
-      <div className="tutorias">
+      <div className="tutorias" id="tutorias">
         <h2 className="tutorias-title">Lo mejor de Ciencia Educa Argentina</h2>
         <h3 className="tutorias-subtitle">Tutorías pedagógicas virtuales</h3>
         <p className="tutorias-description">

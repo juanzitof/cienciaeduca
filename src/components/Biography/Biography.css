@@ -23,15 +23,13 @@ p {
 }
 
 .biography-link {
+  border: 1px solid #b6b6b675;
+  border-radius: 12px;
   font-size: 24px;
-  font-weight: 800;
-  color: black;
-  background-color: #62667c;
-  border: 2px solid #d9dffd;
-  text-decoration: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  margin-top: 0.8rem;
+  line-height: 29px;
+  padding: 0.5rem 1rem;
+  color: #fff;
+  margin-top: 2rem;
 }
 
 @media screen and (max-width: 1200px) {

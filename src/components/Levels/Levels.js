@@ -4,7 +4,7 @@ import "./Levels.css";
 
 const Levels = () => {
   return (
-    <div className="levels-container">
+    <div className="levels-container" id="niveles">
       <h3 className="levels-title">Niveles</h3>
       <div className="levels-cards">
         {dataLevels.map((level, index) => (

@@ -1,0 +1,27 @@
+.whatsapp-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(
+    90deg,
+    #37c60c 27.32%,
+    rgba(65, 161, 36, 0.7) 100%
+  );
+  border-radius: 0px 0px 0px 20px;
+  padding: 0.8rem 1.4rem;
+  color: white;
+}
+
+.whatsapp-button .iconify {
+  width: 34px;
+  height: 34px;
+}
+
+.whatsapp-button p {
+  line-height: 20px;
+}
+
+.whatsapp-button-link {
+  color: white;
+}

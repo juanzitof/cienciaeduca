@@ -7,6 +7,7 @@
 .tutorias .tutorias-title {
   font-size: 32px;
   font-weight: 500;
+  margin-bottom: 2rem;
 }
 
 .tutorias .tutorias-subtitle {
@@ -16,10 +17,11 @@
 }
 
 .tutorias .tutorias-description {
-  width: 75%;
+  width: 65%;
   font-size: 24px;
   font-weight: 300;
   margin-top: 14px;
+  line-height: 30px;
 }
 
 .tutorias-cards-one {
@@ -55,20 +57,18 @@
 }
 
 @media screen and (max-width: 1200px) {
-    .tutorias-cards-two {
-      width: 80%;
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-
+  .tutorias-cards-two {
+    width: 80%;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   }
-  
 }
 
 @media screen and (max-width: 996px) {
   .tutorias-cards-two {
     width: 92%;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-
-}}
+  }
+}
 
 @media screen and (max-width: 868px) {
   .tutorias .tutorias-title {
@@ -84,6 +84,12 @@
 }
 
 @media screen and (max-width: 480px) {
+  .tutorias-cards-two {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 330px) {
   .tutorias-cards-two {
     width: 100%;
   }
