@@ -1,0 +1,115 @@
+.form-container {
+  width: 100%;
+  padding: 4rem;
+  background-color: #d9dffd;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form-title {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+  letter-spacing: 0.04em;
+  margin-bottom: 2rem;
+}
+
+.form {
+  width: 60%;
+  height: 56%;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2.8rem 0.6rem;
+}
+
+.form-group {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.4rem;
+}
+
+.form-input {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin: 0 auto;
+}
+
+.form-label {
+  font-size: 14px;
+  font-weight: 300;
+  margin-bottom: 9px;
+}
+
+.form-message {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 1.4rem;
+}
+
+input {
+  border-radius: 12px;
+  padding: 16px;
+  border: 1px solid #c4c6d3;
+}
+
+::placeholder {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: #c4c6d3;
+}
+
+.form-textarea {
+  border-radius: 12px;
+  border: 1px solid #c4c6d3;
+  padding: 16px;
+  height: 97px;
+}
+
+.form-textarea::placeholder {
+  line-height: 17px;
+  font-weight: 300;
+  font-size: 14px;
+  font-family: "montserrat", sans-serif;
+}
+
+.btn-send {
+  padding: 0.7rem 3.6rem;
+  background: #c4c6d3;
+  border-radius: 12px;
+  border: none;
+  font-size: 24px;
+  color: #fff;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1100px) {
+  .form {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 868px) {
+  .form {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 668px) {
+  .form {
+    width: 100%;
+  }
+}

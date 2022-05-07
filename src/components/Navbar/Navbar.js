@@ -42,13 +42,16 @@ const Navbar = () => {
         <Logo />
         <ul>
           <li>
-            <a href="#tutoria" className="nav-link" >¿Qué es una tutoría?</a>
+            <a href="#tutoria" className="nav-link" >¿Qué es una tutoría pedagógica?</a>
           </li>
-            <li>
+            <li> 
             <a href="#niveles" className="nav-link" >Niveles</a>
             </li>
           <li>
             <a href="#contacto" className="nav-link" >Contacto</a>
+          </li>
+          <li>
+            <a href="#biografia" className="nav-link" >Preguntas frecuentes</a>
           </li>
         </ul>
       </nav>

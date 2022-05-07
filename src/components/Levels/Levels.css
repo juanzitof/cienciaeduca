@@ -1,0 +1,42 @@
+.levels-container {
+  width: 100%;
+  padding: 2rem 0;
+}
+
+.levels-cards {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 10px;
+  padding: 0 1rem;
+
+  /* center */
+  justify-items: center;
+
+}
+
+.levels-cards img {
+  max-width: 100%;
+}
+
+.levels-title {
+  font-size: 32px;
+  font-weight: 500;
+  margin: 24px 0 24px 80px;
+}
+
+.levels-card__title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.levels-card__content__item {
+  font-size: 14px;
+  font-weight: 300;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 6px;
+}

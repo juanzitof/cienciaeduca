@@ -32,3 +32,35 @@ export const dataSecondCard = [
     image: "/images/card05.png",
   },
 ];
+
+export const dataLevels = [
+  {
+    title: "Secundario común y técnico",
+    description: [
+      "Conversamos sobre la problemática",
+      "Armamos el plan de trabajo personalizado",
+      "4 encuentros y revisión de la siguiente etapa",
+      "Analizamos FODA",
+      "Revisamos la organización del tiempo",
+    ],
+    image: "/images/nivel01.png",
+  },
+  {
+    title: "Terciario y preuniversitario",
+    description: [
+      "Conversamos sobre el plan de la carrera",
+      "Dónde se aplica la materia",
+      "Seguimiento para superar obstáculos",
+    ],
+    image: "/images/nivel02.png",
+  },
+  {
+    title: "Carreras universitarias",
+    description: [
+      "Ciencias exctas, Ingeniería Medicina, Nutrición, Psicología",
+      "Conversamos sobre el plan de la carrera",
+      "Seguimiento para superar obstáculos",
+    ],
+    image: "/images/nivel03.png",
+  },
+];

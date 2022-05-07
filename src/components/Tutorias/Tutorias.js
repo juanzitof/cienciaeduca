@@ -6,7 +6,7 @@ const Tutorias = () => {
     <>
       <div className="tutorias">
         <h2 className="tutorias-title">Lo mejor de Ciencia Educa Argentina</h2>
-        <h3 className="tutorias-subtitle">Tutorías pedagógicas</h3>
+        <h3 className="tutorias-subtitle">Tutorías pedagógicas virtuales</h3>
         <p className="tutorias-description">
           El estilo de estudio lo organizamos en etapas con la finalidad de
           acompañar de la mejor forma el proceso de aprendizaje de cada uno.

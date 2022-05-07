@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./Form.css";
 
 const Form = () => {
   const [form, setForm] = useState({
@@ -23,19 +24,58 @@ const Form = () => {
 
   return (
     <>
-      <form className="form" onSubmit={handleSubmit}>
-        <input type="text" name="name" placeholder="Name" value={form.name} onChange={handleChange} />
-        <input type="email" name="email" placeholder="Email" value={form.email} onChange={handleChange} />
-        <textarea name="message" placeholder="Message" value={form.message} onChange={handleChange} />
-         
-        <a href={URL} target="_blank" rel="noopener noreferrer">
-          <button type="button" className="btn-send">
-            Send
-          </button>
-        </a>
-      </form>
+      <div className="form-container">
+        <h3 className="form-title">Contacto</h3>
+        <form className="form" onSubmit={handleSubmit}>
+          <div className="form-group">
+            <div className="form-input">
+              <label className="form-label" htmlFor="name">
+                Nombre
+              </label>
+              <input
+                type="text"
+                name="name"
+                placeholder="Nombre completo"
+                autoComplete="off"
+                value={form.name}
+                onChange={handleChange}
+              />
+            </div>
+            <div className="form-input">
+              <label className="form-label" htmlFor="email">
+                Mail
+              </label>
+              <input
+                type="email"
+                name="email"
+                placeholder="Email"
+                autoComplete="off"
+                value={form.email}
+                onChange={handleChange}
+              />
+            </div>
+          </div>
 
-      <div className="form__container"></div>
+          <div className="form-message">
+            <label className="form-label" htmlFor="message">
+              Mensaje
+            </label>
+            <textarea
+              name="message"
+              placeholder="Escribí tu mensaje..."
+              value={form.message}
+              onChange={handleChange}
+              className="form-textarea"
+            />
+          </div>
+
+          <a href={URL} target="_blank" rel="noopener noreferrer">
+            <button type="button" className="btn-send">
+              Enviar
+            </button>
+          </a>
+        </form>
+      </div>
     </>
   );
 };

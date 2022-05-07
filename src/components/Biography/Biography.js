@@ -16,9 +16,9 @@ const Biography = () => {
           Abre paso a Ahorá conocé todos los niveles en los que te puedo
           acompañar...
         </p>
-      <a href="https://www.google.com.ar" className="biography-link">
-        LINKEDIN
-      </a>
+        <a href="https://www.google.com.ar" className="biography-link">
+          LINKEDIN
+        </a>
       </div>
     </div>
   );
