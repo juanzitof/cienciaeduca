@@ -87,6 +87,13 @@
   .tutorias-cards-two {
     width: 100%;
   }
+  .tutorias {
+    text-align: center;
+  }
+
+  .tutorias-description {
+    margin: 0 auto;
+  }
 }
 
 @media screen and (max-width: 330px) {

@@ -45,3 +45,21 @@ p {
     margin: 0;
   }
 }
+
+@media screen and (max-width: 576px) {
+  .biography .biography-text {
+    width: 100%;
+    font-size: 12px;
+    text-align: center;
+    margin: 0;
+  }
+
+  .biography .biography-text p {
+    line-height: 24px;
+  }
+
+  .biography .biography-text .biography-link {
+    font-size: 12px;
+  }
+
+}

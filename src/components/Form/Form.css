@@ -113,3 +113,42 @@ input {
     width: 100%;
   }
 }
+
+@media screen and (max-width: 576px) {
+  .form-group {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .form-input {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .form-message {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .form-container {
+    padding: 2rem 1.2rem;
+  }
+  .form-group {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .form-input {
+    width: 94%;
+    margin: 0 auto;
+  }
+
+  .form-message {
+    width: 94%;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+  }
+}
